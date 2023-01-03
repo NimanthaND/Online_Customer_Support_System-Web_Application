@@ -1,0 +1,40 @@
+body {
+    background-image: url("../pictures/acounttypebg.png");
+    object-fit:fill;
+
+}
+
+.main{
+    background-color: grey;
+    opacity: 0.6;
+    width: 45%;
+    height: 75%;
+    margin-top: 150px;
+    box-shadow: 5px 5px 12px #000000;
+    
+}
+h1{
+    padding-top: 25px;
+    color: rgb(87, 26, 104);
+}
+.inputBar{
+    width: 50%;
+    height: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 12px #000000;
+}
+
+.submit{
+    width: 25%;
+    background-color: navy;
+    color: oldlace;
+    font-weight: 300;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 5px 5px 12px #000000;
+}
+label{
+    font-size: 15px;
+    font-weight: 200;
+}

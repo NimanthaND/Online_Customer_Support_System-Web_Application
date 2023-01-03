@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Make your reservation 
+        </title>
+
+        <link rel="stylesheet" href="styles/style.css"> 
+        <link rel="stylesheet" href="styles/img.css"> 
+        <link rel="stylesheet" href="styles/text.css"> 
+        <link rel="stylesheet" href="styles/bg.css"> 
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    </head>
+    <body>
+        <h1 class="reservationHead">Make Your Reservation</h1>
+        <form action="submitReservation.php" method="post">
+        <div class="reservationForm">
+            <div class="reservationRow">
+                <div class="reservationCol">
+                    <i class="far fa-user">
+                    <label for="fname">Your name</label></i><br>
+                    <input type="text" placeholder="Full Name" name="name" class="reservaionStyle" required><br><br>
+                    <label for="email">Your Email</label><br>
+                    <input type="email" placeholder="Email" name="email" class="reservaionStyle" pattern ="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}" required><br><br>
+                    <label for="arrival">Your Arrival Date</label>
+                    <input type="date" name="arrival" class="reservaionStyle" required><br><br>
+                    <label for="room">Preferred Room Type</label><br>
+                    <select name="room"  class="reservaionStyle">
+                        <option value="1">Single bed</option>
+                        <option value="2">Double bed</option>
+                    </select>
+
+                </div>
+
+                <div class="reservationCol">
+                    <label for="NIC">Your NIC/Passport</label><br>
+                    <input type="text" placeholder="NIC/Passport" name="NIC" class="reservaionStyle" required><br><br>
+                    <label for="phone">Your Phone Number</label>
+                    <input type="text" placeholder="Phone number" name="phone" class="reservaionStyle" required pattern="[0-9]{10}"><br><br>
+                    <label for="departure">Your Departure Date</label>
+                    <input type="date" name="departure" class="reservaionStyle" required><br><br>
+                    <label for="payment">Payment Type</label><br>
+                    <select name="payment"  class="reservaionStyle" >
+                        <option value="1">VISA</option>
+                        <option value="2">Master</option>
+                        <option value="2">Paypal</option>
+                    </select>
+                </div>
+            </div>
+            <div class="reservationRow">
+                <input type="submit" value="submit" class="submit" name="submit">
+            </div>
+        </div>
+    </form>
+    </body>
+</html>
+
+
+

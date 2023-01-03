@@ -1,0 +1,41 @@
+
+
+input {
+    width: 20%;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #673ab7;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 200px;
+    background: #2196f3;
+    color:black;
+    font-size: 18px;
+    
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+    background: #0097a7;
+}
+
+a {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 20px;
+    color: #069818;
+}

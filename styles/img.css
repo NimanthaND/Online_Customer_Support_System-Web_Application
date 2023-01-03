@@ -1,0 +1,67 @@
+.main-image {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 500px;
+    transition: 0.3s;
+    object-fit: cover;
+}
+
+.blogs {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    width: 50%;
+    height: 250px;
+    transition: 0.3s;
+    object-fit: cover;
+}
+
+.blogsPage1 {
+    width: 100vw;
+   
+    object-fit: cover;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+.blogImg {
+    height: 250px;
+    width: 50%;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.animationRow {
+    display: flex;
+    flex-direction: row;
+    transition: all 1s ease;
+    
+}
+html::-webkit-scrollbar {
+    width: 15px;
+    height: 100%;
+    background-color: #f5fdff;
+}
+
+html::-webkit-scrollbar-thumb {
+    background-color: #807e7b;
+    transition: all 0.6s ease;
+    
+}
+/*emergency page*/
+.emgPic {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    margin-top: 130px  ;
+    margin-left: 60px;
+}
+
+.emgPic:hover{
+    transition: 2ms;
+    transform: scale(1.5);
+}

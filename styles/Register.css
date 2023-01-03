@@ -1,0 +1,17 @@
+input,option{
+    background-color: rgba(22, 97, 184, 0.5);
+    border-radius:30px ;
+}
+input:hover
+{
+    opacity:5px;
+}
+section
+{
+    border-radius:30px ;
+    padding: 10px;
+}
+textarea{
+    width:600px;
+    height:150px;
+}

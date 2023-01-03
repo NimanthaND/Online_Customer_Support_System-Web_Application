@@ -1,0 +1,40 @@
+body {
+    background-image: url("../pictures/acounttypebg.png");
+    object-fit:fill;
+
+}
+.mainPart{
+    width: 75%;
+    height: 75%;
+    margin-top: 100px;
+    display: flex;
+    position: relative;
+}
+.column{
+    width: 50%;
+}
+img{
+    object-fit: cover;
+    height: 300px;
+    width: 300px;
+    opacity: 0.6;
+}
+
+span{
+    font-weight: 1000;
+    font-size: 20px;
+    text-shadow: 3px 3px 8px #888888;
+    transition: 0.5s;
+}
+
+span:hover{
+    color: blueviolet;
+    font-size: 25px;
+    cursor:pointer;
+}
+img:hover{
+    width: 350px;
+    height: 350px;
+    cursor:pointer;
+    opacity: 1;
+}

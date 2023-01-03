@@ -1,0 +1,46 @@
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+.submitadd{
+    background-color: black;
+    opacity: 0.5;
+    width: 70%;
+}
+.postnewadd{
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.postmyadd{
+    color: rgb(0, 0, 0);
+    text-shadow: 3px 3px 8px #888888;
+    text-align: center;
+    font-weight: 500;
+    position: relative;
+}
+
+.postadd:hover{
+    opacity: 2;
+}
+
+.postadd{
+    background-color: rgb(0, 0, 0);
+    opacity: 0.5;
+    width: 70%;
+    border:2px solid rgb(240, 236, 236);
+    color: rgb(233, 221, 221);
+    font-weight: 900;
+}
+
+label{
+    color: white;
+}
+
+.subadd {
+    cursor:pointer;
+}

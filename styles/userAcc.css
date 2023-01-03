@@ -1,0 +1,164 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    position: fixed;
+    background-color: #4f0df2 ;
+    padding: 20px;
+    width: 100%;
+    height: 30px;
+}
+
+.leftA h3{
+    color: cornsilk;
+    margin: 0;
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.logout_btn{
+    padding: 5px;
+    background-color: rgb(56, 54, 54);
+    text-decoration: none;
+    float: right;
+    margin-top: -30px;
+    margin-right: 40px;
+    border-radius: 10px;
+    font-weight: 600;
+    color: white;
+    transition: 0.7s;
+    transition-property: background;
+}
+
+.logout_btn:hover{
+    background-color: maroon;
+}
+
+.sidebar{
+    background-color: rgb(56, 54, 54);
+    margin-top: 70px;
+    padding-top: 30px;
+    position: fixed;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    transition: 0.7;
+    transition-property: left;
+}
+
+.sidebar .profile_pic{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+.profile_pic{
+    object-fit: cover;
+}
+.sidebar h4{
+    color: honeydew;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.sidebar a{
+    color: honeydew;
+    display: block;
+    width: 100%;
+    line-height: 60px;
+    text-decoration: none;
+    padding-left: 40px;
+    box-sizing: border-box;
+    transition: 0.7s;
+    transition-property: background;
+}
+
+.sidebar a:hover{
+    background: maroon;
+}
+
+.sidebar span{
+    padding-left: 10px;
+}
+
+label #slidebar_btn{
+    z-index: 1;
+    color: lightgray;
+    position: fixed;
+    cursor: pointer;
+    left: 300px;
+    font-size: 25px;
+    margin: 5px 0;
+    transition: 0.7s;
+    transition-property: background;
+}
+
+label #slidebar_btn:hover{
+    color: maroon;
+}
+
+#check:checked ~ .sidebar{
+    left: -190px;
+}
+
+#check:checked ~ .sidebar a span{
+    display: none;
+}
+
+#check:checked ~ .sidebar a {
+    font-size: 20px;
+    margin-left: 170px;
+    width: 80px;
+}
+
+.contentA{
+    margin-left: 250px;
+    height: auto;
+    margin-top: 100px;
+    position: fixed;
+    justify-content: left;
+}
+.contentA span{
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 10px;
+    width: 100%;
+}
+
+.userD{
+    margin-left: 50px;
+    margin-top: 30px;
+    width: 900px;
+    background-color: rgb(150, 210, 221);
+    border-radius: 30px;
+}
+
+#check:checked ~.contentA{
+    margin-left: 60px;
+}
+
+#check{
+    display: none;
+}
+
+.AddBtn{
+    width: 100px;
+    background-color: rgb(52, 54, 54);
+    font-weight: 500;
+    border-radius: 30px;
+    margin-left: 50px;
+    margin-top: 20px;
+    padding-left: 10px;
+    color: rgb(235, 228, 228);
+    transition: 0.7s;
+    transition-property: background;
+    cursor:pointer;
+}
+
+.AddBtn:hover{
+    background-color: maroon;
+}

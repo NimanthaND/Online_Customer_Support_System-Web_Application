@@ -1,0 +1,37 @@
+.colm{
+    width: 25%;
+    float:left;
+}
+
+.abcd::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.abcd{
+    height: auto;
+    
+    
+}
+
+
+.imgE{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    object-fit: cover;
+    transition: 0.6s;
+}
+
+.ref:hover{
+    transform: scale(1.5);
+    color: blue;
+    font-weight: 200;
+    font-size: large;
+}
+
+img:hover{
+    width: 120px;
+    height: 120px;
+}

@@ -1,0 +1,35 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.center
+{
+    color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url(Edit.jpg);
+    background-position: center;
+    width:100%;
+    max-height: 1000px;
+    background-repeat: no-repeat;
+}
+
+.cont
+{
+    padding: 20px;
+    word-spacing:3px;
+    width:75%;
+    margin:15px;
+    color: indigo;
+    background-color: lightcoral;
+}
+h1{
+    color: goldenrod;
+}
+.link
+{
+    padding: 0 10px;
+    color: rgba(255,255,255,0);
+}
+.link:hover{
+    color:grey;
+}

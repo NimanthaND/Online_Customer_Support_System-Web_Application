@@ -1,0 +1,54 @@
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Post Your Advertisement
+        </title>
+        <link rel="stylesheet" href="styles/postadds.css"> 
+    
+     
+    </head>
+    <body>
+        <video autoplay muted loop id="myVideo">
+            <source src="video/video1.mp4" type="video/mp4">
+          </video>
+        
+          <h1 class="postmyadd" important> Post Your Advertisement</h1>
+          <center>
+          <div class="submitadd">
+            <form method="POST" action="submitads.php" class="postnewadd" enctype="multipart/form-data">
+
+                <label for="title">Enter Your Name</label><br>
+                <input type="text" name="name" id="name" class="postadd"><br><br>
+
+                <label for="title">Enter Your Email</label><br>
+                <input type="text" name="email" id="email" class="postadd"><br><br>
+
+                <label for="title">Enter Your Website</label><br>
+                <input type="text" name="web" id="web" class="postadd"><br><br>
+
+                <label for="picture">Select your Logo</label><br>
+                <input type="file" name="logo" id="logo" accept="logo/*" class="postadd"><br><br>
+
+                <label for="picture">Select an Image</label><br>
+                <input type="file" name="image" id="image" accept="image/*" class="postadd"><br><br>
+
+                <label for="description">Add Description</label><br>
+                <textarea name="description" id="description" cols="30" rows="4" class="postadd"></textarea><br><br>
+
+                <label for="content">Add Video</label><br>
+                <input type="file" name="video" id="video" accept="video/*" class="postadd"><br><br>
+
+                <input type="submit" name="adsubmit" class="subadd">
+            </form>
+          </div>
+        </center>
+        
+    </body>
+</html>
+
+
+   
+

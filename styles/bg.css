@@ -1,0 +1,41 @@
+body {
+    background-image: url("../pictures/hotel1.jpg");
+    object-fit:fill;
+    
+}
+
+
+.reservaionStyle{
+    background-color: black;
+    opacity: 0.5;
+    border:2px solid white;
+    color: white;
+    width: 100%;
+}
+
+label{
+    color: white;
+}
+
+::placeholder{
+    color: white;
+    
+    
+}
+
+
+
+.reservaionStyle:hover{
+    opacity: 2;
+}
+
+.submit{
+    opacity: 10;
+    width: 100px;
+    height: 20px;
+    background-color: blue;
+    color: white;
+    padding-bottom: 20px;
+    cursor:pointer;
+    
+}

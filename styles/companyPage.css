@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@1,600&display=swap');
+
+.companypagebody{
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+}
+
+.companypagebod h1{
+    font-family: 'Andada Pro', serif;
+}
+
+.pricerangetab{
+    background-color: rgba(59, 170, 235, 0.418);
+    width: 230px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+    box-shadow: 0px 8px 22px -12px rgba(0, 0, 0, 64);
+}
+
+.pricerangetab h1{
+    font-family: 'Andada Pro', serif;
+}
+
+.starratingtab{
+    background-color: rgba(5, 124, 235, 0.507);;
+    width: 230px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 22px -12px rgba(0, 0, 0, 64);
+}
+
+.starratingtab h1{
+    font-family: 'Andada Pro', serif;
+}
+
+.facilitiestab{
+    background-color: rgba(39, 156, 224, 0.623);;
+    width: 230px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 22px -12px rgba(0, 0, 0, 64);
+}
+
+.facilitiestab h1{
+    font-family: 'Andada Pro', serif;
+}
+
+.bedpref{
+    background-color: rgba(39, 135, 224, 0.705);;
+    width: 230px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 22px -12px rgba(0, 0, 0, 64);
+}
+
+.bedpref h1{
+    font-family: 'Andada Pro', serif;
+}
+
+.hotelsadstab{
+    width: 900px;
+    height: 650px;
+    background-color: rgba(255, 255, 255, 0.575);
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    border-radius: 5px;
+    box-shadow: 0px 8px 22px -12px rgba(0, 0, 0, 64);
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.hotelsadstab ul{
+    list-style-type: none;
+    
+    margin: 10px;
+}
+
+.hotelads img{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.hotelads{
+    
+    width: 400px;
+    height: 130px;
+    background-color: rgba(21, 180, 253, 0.445);
+    margin: 10px;
+    border-radius: 5px;
+    display: flex;
+    box-shadow: 0px 8px 22px -12px rgba(0, 0, 0, 64);
+}
+
+/* .hoteladstital{
+    position: absolute;
+    left: 15%;
+} */
+
+/* .hadsbtns{
+    position: absolute;
+    left: 25%;
+    top: 10%;
+
+} */
+
+.hoteladstital button{
+    left: 100px;
+    width: 120px;
+    cursor: pointer;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+    border: 2px solid rgb(245, 245, 245);
+    background-color: rgba(245, 245, 245, 0.342);
+    transition: 0.5s;
+}
+
+.hoteladstital button:hover{
+    background-color: whitesmoke;
+}
+
+.companypagesearchbar{
+    position: absolute;
+    top: 5%;
+    left: 70%;
+}
+
+.companypagesearchbar input{
+    width: 200px;
+    height: 25px;
+    border:none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.companypagesearchbar button{
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    border: none;
+    transition: 0.5s;
+}
+
+.companypagesearchbar button:hover{
+    background-color: rgba(143, 159, 250, 0.904);
+    color: white;
+}
+

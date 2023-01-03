@@ -1,0 +1,82 @@
+p.mainP {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    transition: 1s;
+
+}
+
+.contentC:hover{
+    color: darkblue;
+    transition: 0.5s;
+}
+
+.contentC {
+    font-size: 60px;
+}
+
+.headerh3 {
+    text-align: center;
+    color: white;
+}
+.blogsClass {
+    text-align: center;
+    font-size: 50px;
+    text-decoration: none;
+}
+
+.blogsClass:hover{
+    color: darkblue;
+    transition: 0.5s;
+}
+
+.blogsh1 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    text-align: center;
+    text-shadow: 3px 3px 8px #888888;
+}
+
+.blogH {
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 3px 3px 8px #888888;
+}
+
+.blogP {
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 3px 3px 8px #888888;
+}
+
+.blogHeading {
+    text-decoration: none;
+    color: darkblue;
+}
+
+.blogHeading:hover {
+    color: darkred;
+}
+
+.blogbtn {
+    text-decoration: none;
+}
+
+.blogbtn:hover {
+    color: white;
+    background-color: darkred;;
+
+}
+
+.emg1 {
+    font-size: 10px;
+}
+
+
+
+.reservationHead{
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px 8px #888888;
+}
+
+
+
